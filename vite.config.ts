@@ -25,7 +25,4 @@ export default defineConfig({
     chunkSizeWarningLimit: 1500,
     cssMinify: 'esbuild',
   },
-  css: {
-    transformer: 'postcss',
-  },
 });
