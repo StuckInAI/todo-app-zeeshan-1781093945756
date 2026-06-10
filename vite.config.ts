@@ -23,5 +23,9 @@ export default defineConfig({
     minify: 'esbuild',
     sourcemap: false,
     chunkSizeWarningLimit: 1500,
+    cssMinify: 'esbuild',
+  },
+  css: {
+    transformer: 'postcss',
   },
 });
